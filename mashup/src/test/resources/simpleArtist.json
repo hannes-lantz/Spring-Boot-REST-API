@@ -1,0 +1,63 @@
+{
+  "name": "Nirvana",
+  "relations": [
+    {
+      "url": {
+        "id": "1221730c-3a48-49fa-8001-beaa6e93c892",
+        "resource": "https://www.wikidata.org/wiki/Q11649"
+      },
+      "direction": "forward",
+      "source-credit": "",
+      "ended": false,
+      "end": null,
+      "begin": null,
+      "type-id": "689870a4-a1e4-4912-b17f-7b2664215698",
+      "target-type": "url",
+      "type": "wikidata",
+      "target-credit": "",
+      "attribute-ids": {},
+      "attribute-values": {},
+      "attributes": []
+    }
+  ],
+  "release-groups": [
+    {
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "secondary-type-ids": [],
+      "title": "Bleach",
+      "disambiguation": "",
+      "id": "f1afec0b-26dd-3db5-9aa1-c91229a74a24",
+      "secondary-types": [],
+      "first-release-date": "1989-06-01",
+      "primary-type": "Album"
+    },
+    {
+      "first-release-date": "1991-09-24",
+      "primary-type": "Album",
+      "id": "1b022e01-4da6-387b-8658-8678046e4cef",
+      "secondary-types": [],
+      "disambiguation": "",
+      "title": "Nevermind",
+      "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+      "secondary-type-ids": []
+    }
+  ],
+  "begin_area": {
+    "type-id": null,
+    "name": "Aberdeen",
+    "disambiguation": "",
+    "type": null,
+    "id": "a640b45c-c173-49b1-8030-973603e895b5",
+    "sort-name": "Aberdeen"
+  },
+  "begin-area": {
+    "type-id": null,
+    "name": "Aberdeen",
+    "disambiguation": "",
+    "type": null,
+    "id": "a640b45c-c173-49b1-8030-973603e895b5",
+    "sort-name": "Aberdeen"
+  },
+  "id": "5b11f4ce-a62d-471e-81fc-a69a8278c7da",
+  "sort-name": "Nirvana"
+}
