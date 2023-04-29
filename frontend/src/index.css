@@ -1,0 +1,116 @@
+body {
+  margin: 20;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#search-mbid {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#search-mbid h1 {
+  margin-bottom: 1rem;
+  font-size: 2rem;
+}
+
+#search-mbid form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#search-mbid label {
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+}
+
+#search-mbid input[type="text"] {
+  padding: 0.5rem;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 0.25rem;
+  box-shadow: 0 0 0.25rem rgba(0, 0, 0, 0.1);
+}
+
+#search-mbid button[type="submit"] {
+  margin-top: 1rem;
+  padding: 0.5rem;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 0.25rem;
+  background-color: rebeccapurple;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+#search-mbid button[type="submit"]:hover {
+  background-color: #3e8e41;
+}
+
+#description {
+  margin: 20px 0;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: justify;
+}
+
+#description p {
+  margin: 0;
+  padding: 0;
+}
+
+#description a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+#description a:hover {
+  text-decoration: underline;
+}
+
+#album_header {
+  text-align: center;
+}
+
+.image-gallery {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 20px;
+}
+
+.image-gallery li {
+  list-style: none;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.image-gallery img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  margin: 10;
+  margin-top: auto;
+}
+
+
+
