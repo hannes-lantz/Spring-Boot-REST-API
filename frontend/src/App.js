@@ -1,5 +1,6 @@
 import React, { useState, useRef, useEffect  } from 'react';
 import axios from 'axios';
+import { Interweave } from 'interweave';
 
 function App() {
   const [MBID, setMBID] = useState('');
@@ -40,13 +41,13 @@ function App() {
       </div>
       {responseData && (
         <div ref={responseRef}>
-          <h2 id="album_header">API Response:</h2>
           <h3 id="album_header">MBID: {responseData.mbid}</h3>
+          <h2 id="album_header">Description:</h2>
           <div id="description">
-            <p dangerouslySetInnerHTML={{__html: responseData.description}}></p>
+            <Interweave content={responseData.description}/>
           </div>
           <div id="albumContainer">
-            <h3 id="album_header">Albums:</h3>
+            <h2 id="album_header">Albums:</h2>
             <ul class="image-gallery">
               {responseData.albums.map(album => (
                 <li key={album.id}>
